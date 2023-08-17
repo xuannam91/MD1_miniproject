@@ -1,0 +1,29 @@
+input.error{
+    border-color: rgb(249, 29, 29);
+}
+input.success{
+    border-color: blue;
+}
+
+.error-message{
+    color: rgb(249, 29, 29);
+   font-style: italic;
+   margin-top: 3px;
+   font-size: 13px;
+   text-decoration: underline;
+}
+.form-group-password{
+position: relative;
+}
+
+.form-group-password i{
+position: absolute;
+top: 50%;
+right: 3%;
+transform: translate(-50%, -50%);
+cursor: pointer;
+}
+.form-group_error i{
+    top: calc(50% - 12px);
+}
+

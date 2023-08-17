@@ -1,0 +1,8 @@
+.error{
+    border-color: red;
+}
+.error-message-comment{
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+}
